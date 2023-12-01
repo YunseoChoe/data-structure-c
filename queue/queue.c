@@ -11,3 +11,9 @@ typedef struct Queue {
     struct Queue* rear;
 } queue;
 
+
+
+int main() {
+    return 0;
+}
+
