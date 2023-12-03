@@ -11,6 +11,13 @@ typedef struct Queue {
     struct Queue* rear;
 } queue;
 
+void insert(queue* q, int value);
+void delete(queue* q);
+void print_queue(queue* q);
+
+
+
+
 
 
 int main() {
